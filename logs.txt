@@ -1,0 +1,41 @@
+commit 2c80d4041f4a66c2e83e1de7e1f120ac7cb11e80
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 14:36:22 2024 +0200
+
+    Fixed merge conflict in bug2
+
+commit b2b94ebdc8f790a59b500bb164da53f0232c6622
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 14:17:37 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit c0d714a7a4644af6700800dc0d681dd66100099d
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 14:20:15 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 396a0eadeb46d7fc5765185ca6b4460b1ba33873
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 14:13:51 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit cf52b461950295e8c636721b3207c83a77e87d9d
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 13:44:58 2024 +0200
+
+    Add starter code
+
+commit c5cf46d6c07ec35723d717a48e1bd1754f574885
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 13:37:55 2024 +0200
+
+    Initial commit
+
+commit 3baf4ae2d36cdac2cacda573681be38dc722dee0
+Author: Teo553 <teoeftimov34@gmail.com>
+Date:   Mon Apr 1 13:35:55 2024 +0200
+
+    first commit

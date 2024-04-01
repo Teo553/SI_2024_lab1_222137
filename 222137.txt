@@ -1,0 +1,145 @@
+4,5.
+echo "# SI_2024_lab1_222137" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Teo553/SI_2024_lab1_222137.git
+git push -u origin master
+
+(Go kopiprame repoto od git kaj nas odnosno pravime local repo)
+
+6.
+git add .
+git commit -m "Initial commit"
+
+(dodadovme readme.md i stavivme ime,prezime i index vo nego i pravime commit so -m (message odnsno poraka za comittot) "Initial commit" )
+
+7.
+Otkako gi prevzemavme fajlovite i gi stavivme vo nasiot lokalen repo 
+
+git add .
+git commit -m "Add starter code"
+
+Pravime commit so porakata 
+
+8.
+pravime push
+
+git push origin master
+
+9. 
+git checkout master
+(da se osigurame deka sme na master grankata)
+
+git checkout -b bug1
+(kreirame nova granka bug1)
+
+git checkout master
+(se vrakjame na master)
+
+git checkout -b bug2
+(kreirame uste edna nova granka bug2)
+
+10.
+git checkout bug1
+
+11.
+(ja popravame greskata i pravime) 
+
+
+git add .
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12.
+git checkout bug2
+
+13.
+(ja popravame greskata i pravime)
+git add .
+git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14.
+git checkout bug1
+
+15.
+git add .
+git commit -m "Call method filterOddLengthStrings in main class"
+(pravime ccommit so promenata)
+
+16.
+git checkout bug2
+
+17.
+git add .
+git commit -m "Call method makeBigStringFrom in main class"
+(pravime commit na branchot bug2 so novite izmeni)
+
+18.
+git checkout bug1
+git push origin bug1
+(se prfrlame na bug 1 i pravime push na origin odnosno remote repoto i ja dodavame grankata bug1)
+
+git checkout bug2 
+git push origin bug2
+(istoto go pravime i za bug2 grankata)
+
+19. 
+git checkout master
+(se prefrlame na master)
+
+20.
+git merge bug1
+(gi spojuvame so ff bug 1 so master)
+
+21.
+git push origin master
+(sinhronizacija na master so remote)
+
+22.
+git checkout bug2
+
+23.
+git rebase master
+
+Auto-merging SILab1_1.java
+CONFLICT (content): Merge conflict in SILab1_1.java
+error: could not apply 36f8e36... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 36f8e36... Call method makeBigStringFrom in main class
+
+(manuelno gi popravame konfliktite)
+
+git add .
+git commit -m "Fixed merge conflicts in bug2"
+git rebase --continue
+
+24.
+git checkout master
+
+25.
+git merge bug2
+(ja spojuvame bug2 so master)
+
+26.
+git push origin master
+(pravime push na remote)
+
+28.
+(kreirame nov fajl vo direktoriumot logs.txt)
+git log > logs.txt
+(gi kopira logovite vo nasata datoteka logs.txt)
+
+(pravime nov fajl 222137.txt kade sto textot od tuka go prefrlame tamu i pravime posleden commit)
+
+git add .
+git commit -m "Final commit"
+
+
+
+25. 
+git push origin master
+
