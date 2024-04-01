@@ -9,6 +9,7 @@ public class SILab1_1 {
                 result.add(el);
             }
         }
+        System.out.println(SILab1_2.makeBigStringFrom(list));
         return result;
     }
 
